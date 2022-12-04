@@ -3,7 +3,7 @@
 ?>
     <!-- wallet -->
     <div class="wallet">
-        <div class="container-fluid">
+        <div class="container-fluid" style="padding-top: -100px;margin-top: -100px;">
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <a href="online-tv.php">
@@ -32,7 +32,7 @@
                         </div>
                 </a>
                 <!-- Modal -->
-                <form action="hospital.php">
+                <form action="hospital.php"method="post" >
                     <div class="modal fade" id="hospital-filter" tabindex="-1" role="dialog" aria-labelledby="hospital-filterTitle" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -44,19 +44,14 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="form-group">
-                                        <label for="District">জেলা</label>
-                                        <select class="form-control" id="District">
-                                            <option>ঢাকা</option>
-                                            <option>খুলনা</option>
-                                            <option>যশোর</option>
-                                            <option>গোপালগঞ্জ</option>
-                                            <option>বি. বাড়িয়া</option>
+                                        <label for="District">District</label>
+                                        <select class="form-control" id="District" name="district_name">
+                                            <option>Dhaka</option>
+                                            <option>Barisal</option>
+                                            <option>Jamalpur</option>
+                                            <option>Gopalganj</option>
+                                            <option>Khulna</option>
                                         </select>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="zip_code">Zip Code</label>
-                                        <input type="number" class="form-control" id="zip_code">
                                     </div>
                                 </div>
                                 <div class="modal-footer">
@@ -77,7 +72,7 @@
                         </div>
                 </a>
                 <!-- Modal -->
-                <form action="need-blood.php">
+                <form action="need-blood.php" method="post">
                     <div class="modal fade" id="blood-filter" tabindex="-1" role="dialog" aria-labelledby="blood-filterTitle" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -89,30 +84,28 @@
                                 </div>
                                 <div class="modal-body">
                                     <div class="form-group">
-                                        <label for="District">জেলা</label>
-                                        <select class="form-control" id="District">
-                                            <option>ঢাকা</option>
-                                            <option>খুলনা</option>
-                                            <option>যশোর</option>
-                                            <option>গোপালগঞ্জ</option>
-                                            <option>বি. বাড়িয়া</option>
+                                        <label for="District">District</label>
+                                        <select class="form-control" id="District" name="district_name">
+                                            <option>Dhaka</option>
+                                            <option>Khulna</option>
+                                            <option>Barisal</option>
+                                            <option>Gopalganj</option>
+                                            <option>Kustia</option>
                                         </select>
                                     </div>
 
                                     <div class="form-group">
-                                        <label for="District">এলাকা</label>
-                                        <select class="form-control" id="District">
-                                            <option>ঢাকা</option>
-                                            <option>খুলনা</option>
-                                            <option>যশোর</option>
-                                            <option>গোপালগঞ্জ</option>
-                                            <option>বি. বাড়িয়া</option>
+                                        <label for="District">Blood Group</label>
+                                        <select class="form-control" id="District" name="bg">
+                                        <option>A+</option>
+                                        <option>A-</option>
+                                        <option>B+</option>    
+                                        <option>B-</option>
+                                            <option>O+</option>
+                                            <option>O-</option>
+                                            <option>AB+</option>
+                                            <option>AB-</option>
                                         </select>
-                                    </div>
-
-                                    <div class="form-group">
-                                        <label for="zip_code">Zip Code</label>
-                                        <input type="number" class="form-control" id="zip_code">
                                     </div>
                                 </div>
                                 <div class="modal-footer">

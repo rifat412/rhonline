@@ -39,9 +39,9 @@ if (session_status() === PHP_SESSION_NONE) {
         <a class="active" href="index.php">Home</a>
         <a href="online-tv.php">watch TV</a>
         <a href="online-newspaper.php">read NEWSPAPER</a>
-        <a href="#"  data-toggle="modal" data-target="#hospital-filter">Search HOSPITAL</a>
-        <a href="#" data-toggle="modal" data-target="#blood-filter">FIND BLOOD</a>
-        <a href="contact.php">Contact</a>
+        <!--<a href="#"  data-toggle="modal" data-target="#hospital-filter">Search HOSPITAL</a>
+        <a href="#" data-toggle="modal" data-target="#blood-filter">FIND BLOOD</a>-->
+        <!--<a href="contact.php">Contact</a>-->
         <?php echo (isset($_SESSION['uid']) ? '<a href="logout.php">Logout</a>' : ''); ?>
     </div>
     <!-- header -->

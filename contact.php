@@ -38,6 +38,6 @@
             </div>
         </div>
     </div>
-    <?php
-    include('./template-parts/footer.php');
+<?php
+include('./template-parts/footer.php');
 ?>
