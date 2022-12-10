@@ -47,10 +47,22 @@
                                         <label for="District">District</label>
                                         <select class="form-control" id="District" name="district_name">
                                             <option>Dhaka</option>
-                                            <option>Barisal</option>
+                                            <option>Gazipur</option>
+                                            <option>Narsingdi</option>
+                                            <option>Manikganj</option>
+                                            <option>Munshiganj</option>
+                                            <option>Narayanganj</option>
+                                            <option>Mymensingh</option>
+                                            <option>Sherpur</option>
                                             <option>Jamalpur</option>
+                                            <option>Netrokona</option>
+                                            <option>Tangail</option>
+                                            <option>Faridpur</option>
+                                            <option>Maradipur</option>
+                                            <option>Shariatpur</option>
+                                            <option>Rajbari</option>
                                             <option>Gopalganj</option>
-                                            <option>Khulna</option>
+                                            <option>Kishoreganj</option>
                                         </select>
                                     </div>
                                 </div>
@@ -86,11 +98,23 @@
                                     <div class="form-group">
                                         <label for="District">District</label>
                                         <select class="form-control" id="District" name="district_name">
-                                            <option>Dhaka</option>
-                                            <option>Khulna</option>
-                                            <option>Barisal</option>
+                                        <option>Dhaka</option>
+                                            <option>Gazipur</option>
+                                            <option>Narsingdi</option>
+                                            <option>Manikganj</option>
+                                            <option>Munshiganj</option>
+                                            <option>Narayanganj</option>
+                                            <option>Mymensingh</option>
+                                            <option>Sherpur</option>
+                                            <option>Jamalpur</option>
+                                            <option>Netrokona</option>
+                                            <option>Tangail</option>
+                                            <option>Faridpur</option>
+                                            <option>Maradipur</option>
+                                            <option>Shariatpur</option>
+                                            <option>Rajbari</option>
                                             <option>Gopalganj</option>
-                                            <option>Kustia</option>
+                                            <option>Kishoreganj</option>
                                         </select>
                                     </div>
 
